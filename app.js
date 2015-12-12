@@ -2,7 +2,7 @@ var express = require('express')
   , app = express() // Web framework MVC 'sinatra-like' to handle routing requests
   , cons = require('consolidate') // Templating library adapter for Express
   , MongoClient = require('mongodb').MongoClient // Driver for connecting to MongoDB
-  , routes = require('./routes'); // Routes for our application
+  , routes = require('./routes'); 
 
 
 // Connection url: path/port/databaseName
